@@ -2,9 +2,9 @@
 #include "pico/stdlib.h"
 #include "hardware/timer.h"
 
-#define LED_VERDE 11   // Verde: Siga
+#define LED_VERDE 13   // Verde: Siga
 #define LED_AMARELO 12 // Amarelo: Atenção
-#define LED_VERMELHO 13 // Vermelho: Pare
+#define LED_VERMELHO 11 // Vermelho: Pare
 
 #define INTERVALO_TROCA_SINAL 3000 // Tempo entre mudanças
 
