@@ -1,6 +1,8 @@
+# 🚦 Temporizador Periódico - Semáforo
+
 Este projeto implementa um semáforo utilizando o microcontrolador Raspberry Pi Pico W e a função add_repeating_timer_ms() do Pico SDK. O semáforo alterna entre os sinais vermelho, amarelo e verde em intervalos de 3 segundos, simulando o funcionamento de um semáforo real.A atividade será desenvolvida no ambiente VS Code, utilizando a linguagem C e o simulador Wokwi para testes.
 
-📌 Objetivo
+## 📌 Objetivo
 
 Implementar um temporizador periódico para controlar um semáforo.
 
@@ -10,11 +12,11 @@ Exibir mensagens periódicas no terminal a cada 1 segundo.
 
 Testar o funcionamento do código no Wokwi e no BitDogLab.
 
-🛠 Requisitos
+## 🛠 Requisitos
 
 Para executar este projeto, é necessário ter os seguintes componentes:
 
-🎛 Hardware
+### 🎛 Hardware
 
 Raspberry Pi Pico W
 
@@ -24,7 +26,7 @@ Raspberry Pi Pico W
 
 Protoboard e fios de conexão
 
-🖥 Software
+### 🖥 Software
 
 VS Code configurado para desenvolvimento com Pico SDK
 
@@ -32,7 +34,7 @@ CMake e GNU Make instalados para compilação
 
 Simulador Wokwi para testes virtuais
 
-🔧 Funcionamento
+## 🔧 Funcionamento
 
 O semáforo inicia no vermelho.
 
